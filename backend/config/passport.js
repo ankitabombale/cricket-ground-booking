@@ -7,7 +7,7 @@ const pool = await mysql.createPool({
   host: "localhost",
   user: "root",
   password: "",
-  database: "cricket_app",
+  database: "cricket_ground",
 });
 
 passport.use(
